@@ -1,0 +1,30 @@
+diff --git a/uc_custom_price.module b/uc_custom_price.module
+index a43d1ee..608933b 100644
+--- a/uc_custom_price.module
++++ b/uc_custom_price.module
+@@ -76,12 +76,25 @@ function uc_custom_price_uc_cart_item($op, $item) {
+ }
+ 
+ /**
++ * Implements hook_uc_cart_alter().
++ *
++ * Fix module behavior for Ubercart version > 3.2.
++ */
++function uc_custom_price_uc_cart_alter(&$items) {
++  // manually call function for each cart item
++  foreach ($items as &$item) {
++    uc_custom_price_uc_cart_item('load', $item);
++  }
++}
++
++/**
+  * Implements hook_node_view().
+  */
+ function uc_custom_price_node_view($node) {
+   if (isset($node->custom_code) &&
+       $node->custom_code != '$item->price = $item->price;') {
+     $item = clone $node;
++	$item->qty = $node->default_qty;
+     $item->price = $node->sell_price;
+     $eval_code = token_replace($node->custom_code, array('product' => $node));
+     eval($eval_code);

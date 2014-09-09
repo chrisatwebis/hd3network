@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HD3 Network</title>
+<style type="text/css">
+body {
+	background-image: url(images/bg.fw.png);
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333;
+}
+.header {
+	height: auto;
+	width: auto;
+	min-width: 1200px;
+}
+.quicknav {
+	clear: both;
+	height: 30px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Courier New", Courier, monospace;
+}
+.quicknav .quicknavl {
+	float: left;
+	height: auto;
+	width: auto;
+	padding-top: 10px;
+}
+.quicknav .quicknavr {
+	float: right;
+	height: auto;
+	width: auto;
+	padding-top: 10px;
+}
+.nav {
+	background-image: url(images/navbg.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	clear: both;
+	height: 71px;
+	width: auto;
+}
+.navsize {
+	clear: both;
+	height: 71px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo {
+	float: left;
+	height: auto;
+	width: auto;
+}
+.navlist {
+	height: auto;
+	width: 600px;
+	float: left;
+	margin-left: 100px;
+}
+.navlist a {
+	display: block;
+	float: left;
+	height: 71px;
+	width: auto;
+	color: #FFF;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 71px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navlist a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+.navlist a:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #F00;
+}
+.wrapper {
+	clear: both;
+	height: auto;
+	width: auto;
+	min-width: 1200px;
+}
+.homebg {
+	background-image: url(images/homebg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.homecontent {
+	clear: both;
+	height: auto;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.homeline1 {
+	background-image: url(images/homeline1.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 135px;
+}
+.hometheme {
+	background-repeat: no-repeat;
+	background-position: -2px top;
+	clear: both;
+	height: 250px;
+	width: auto;
+	padding-left: 30px;
+	background-image: url(images/homeline2.png);
+}
+.homethemecont {
+	float: left;
+	height: 250px;
+	width: 800px;
+}
+.homethemebutton {
+	float: left;
+	height: 100px;
+	width: 125px;
+}
+.homethemebox {
+	clear: both;
+	height: auto;
+	width: auto;
+	padding-top: 100px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(images/homeline3.png);
+}
+.homethemeaboutus {
+	float: left;
+	height: auto;
+	width: 200px;
+	padding-left: 30px;
+}
+.homehotnewsbox {
+	float: left;
+	height: auto;
+	width: 380px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.homethemeadright {
+	wclear: both;
+	height: 125px;
+	width: auto;
+	text-align: left;
+}
+.homethemeadleft {
+	clear: both;
+	height: 125px;
+	width: auto;
+	text-align: right;
+}
+.homethemefont1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #333;
+	text-align: right;
+	clear: both;
+	height: 50px;
+	width: auto;
+	line-height: 50px;
+}
+.homethemefont2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #333;
+	text-align: left;
+	clear: both;
+	height: 50px;
+	width: auto;
+	line-height: 50px;
+}
+.textalignleft {
+	text-align: left;
+}
+.textalignright {
+	text-align: right;
+}
+.homethemetext {
+	clear: both;
+	height: auto;
+	width: auto;
+}
+.clearfloat {
+	clear: both;
+}
+.borderleft {
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+.more {
+	clear: both;
+	height: auto;
+	width: auto;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.more img {
+	vertical-align: middle;
+}
+.aboutusbg {
+	background-image: url(images/aboutusbg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.aboutuscontent {
+	background-repeat: no-repeat;
+	background-position: center top;
+	clear: both;
+	height: 1200px;
+	width: auto;
+	padding-top: 300px;
+	background-image: url(images/aboutusboxbg.png);
+}
+.aboutuscontentbox {
+	clear: both;
+	height: auto;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.aboutustitle {
+	font-size: 18px;
+	color: #333;
+	clear: both;
+	height: auto;
+	width: auto;
+	line-height: 50px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.aboutusad {
+	clear: both;
+	height: auto;
+	width: auto;
+}
+.aboutustext {
+	clear: both;
+	height: auto;
+	width: auto;
+}
+.spacing {
+	clear: both;
+	height: 50px;
+}
+.aboutcountus {
+	clear: both;
+	height: auto;
+	width: auto;
+}
+.searcestitle {
+	clear: both;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+.servicesmain {
+	clear: both;
+	height: auto;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/homeline4.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.servicesbox {
+	clear: both;
+	height: auto;
+	width: auto;
+	border: 1px solid #CCC;
+}
+.servicestitle {
+	clear: both;
+	height: 85px;
+	width: auto;
+}
+.servicestitle ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.servicestitle ul li {
+	text-align: center;
+	float: left;
+	height: 80px;
+	width: 25%;
+	background-color: #F2414C;
+	line-height: 80px;
+	color: #FFF;
+	font-size: 24px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.servicestitle ul li span {
+	border: 1px solid #FFF;
+	display: block;
+}
+.servicestitle .servicesfocus {
+	color: #333;
+	background-color: #E9E9E9;
+}
+.servicescont {
+	padding: 30px;
+	clear: both;
+	height: auto;
+	width: auto;
+}
+.servicescontleft {
+	float: left;
+	height: auto;
+	width: 30%;
+	font-size: 24px;
+	line-height: 36px;
+}
+.servicescontright {
+	float: right;
+	height: auto;
+	width: 68%;
+}
+.servicescontfocus {
+	background-color: #E9E9E9;
+	clear: both;
+	height: 100px;
+	width: auto;
+	border: 1px solid #999;
+}
+.servicesconttext {
+	clear: both;
+	height: auto;
+	width: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.servicescontactus {
+	clear: both;
+	height: auto;
+	width: auto;
+}
+.cleantitle {
+	background-image: url(images/clientbg.png);
+	background-repeat: repeat-x;
+	background-position: left center;
+	text-align: center;
+	clear: both;
+	height: 191px;
+	width: auto;
+	min-width: 1200px;
+}
+.cleanbottom {
+	background-image: url(images/clientbg1.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	text-align: center;
+	clear: both;
+	height: 148px;
+	width: auto;
+	min-width: 1200px;
+}
+.cleanwrapper {
+	clear: both;
+	height: auto;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.cleanbox {
+	float: left;
+	height: auto;
+	width: 50%;
+}
+.cleanbox .cleancont {
+	background-color: #FFF;
+	clear: both;
+	height: 200px;
+	width: auto;
+	padding: 30px;
+	margin: 20px;
+}
+.cleanbox .cleancont .cleantext {
+	clear: both;
+	height: auto;
+	width: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.cleanbox .cleancont .cleanlogo {
+	clear: both;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+.cleanbox .cleancont .cleanbutton {
+	line-height: 30px;
+	clear: both;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+.cleanbox .cleancont .cleanbutton img {
+	vertical-align: middle;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+  <div class="quicknav">
+    <div class="quicknavl"><img src="images/quicknavl.png" width="100" height="14" /></div>
+    <div class="quicknavr"><img src="images/quicknavr.png" width="181" height="18" /></div>
+  </div>
+  <div class="nav">
+    <div class="navsize">
+      <div class="logo"><img src="images/logo.png" width="96" height="71" /></div>
+      <div class="navlist"><a href="">ABOUT</a><a href="">SERVICES</a><a href="">CLIENT STORIES</a><a href="">CAREERS</a></div>
+    </div>
+  </div>
+</div>
+<div class="wrapper homebg">
+  <div class="homecontent">
+    <div class="homeline1"></div>
+    <div class="hometheme">
+      <div class="homethemecont"><img src="images/homethemepic.png" width="762" height="239" /></div>
+      <div class="homethemebutton"><img src="images/pagebutton.png" width="125" height="99" /></div>
+    </div>
+    <div class="homethemebox">
+      <div class="homethemeaboutus"><img src="images/contactus.png" width="184" height="41" /></div>
+      <div class="homehotnewsbox">
+        <div class="homethemeadleft"><img src="images/ad1.png" width="166" height="92" /></div>
+        <div class="homethemefont1">Client Story</div>
+        <div class="homethemetext textalignright">XXXXX nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim, eu aliquam erat nulla non nibh. consectetuer malesuada velit.</div>
+        <div class="more textalignright"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Read More</div>
+      </div>
+      <div class="homehotnewsbox borderleft">
+        <div class="homethemeadright"><img src="images/ad2.png" width="369" height="124" /></div>
+        <div class="homethemefont2">Did You Know?</div>
+        <div class="homethemetext textalignleft">XXXXX nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim, eu aliquam erat nulla non nibh. consectetuer malesuada velit.</div>
+        <div class="more textalignleft"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Learn More</div>
+      </div>
+      <div class="clearfloat"></div>
+    </div>
+  </div>
+</div>
+<div class="wrapper aboutusbg">
+  <div class="aboutuscontent">
+    <div class="aboutuscontentbox">
+      <div class="aboutustitle">Passionate about technology and consulting</div>
+      <div class="aboutusad">产品</div>
+      <div class="aboutustext">Vivamus auctor leo vel dui. Aliquam erat volutpat. Phasellus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim, eu aliquam erat nulla non nibh. consectetuer </div>
+      <div class="more"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;See Our Services</div>
+      <div class="spacing"></div>
+      <div class="aboutustitle">Dedicated to solving client problems</div>
+      <div class="aboutustext">Vivamus auctor leo vel dui. Aliquam erat volutpat. Phasellus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim, eu aliquam erat nulla non nibh. consectetuer </div>
+      <div class="more"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Read Client Stories</div>
+      <div class="spacing"></div>
+      <div class="aboutustitle">Strategic Partnerships</div>
+      <div class="aboutustext">Vivamus auctor leo vel dui. Aliquam erat volutpat. Phasellus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim, eu aliquam erat nulla non nibh. consectetuer </div>
+      <div class="more"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Browse Partners</div>
+      <div class="spacing"></div>
+      <div class="aboutcountus"><img src="images/contactus.png" width="184" height="41" /></div>
+    </div>
+  </div>
+  <div class="searcestitle"><img src="images/serviceshd3.png" width="449" height="99" /></div>
+  <div class="servicesmain">
+    <div class="servicesbox">
+      <div class="servicestitle">
+        <ul>
+          <li class="servicesfocus">Voice over IP [VoIP]</li>
+          <li><span>Routing & Switching</span></li>
+          <li><span>Voice over IP [VoIP]</span></li>
+          <li><span>Voice over IP [VoIP]</span></li>
+        </ul>
+      </div>
+      <div class="servicescont">
+        <div class="servicescontleft">HD3 Networks specializes in design, implementation, and troubleshooting Cisco VoIP infrastructure</div>
+        <div class="servicescontright">
+          <div class="servicescontfocus"></div>
+          <div class="servicesconttext">
+            <p>HD3 Networks specializes in design, implementation, and troubleshooting Cisco VoIP infrastructure.  Some of the top products our engineers are highly proficient in (not limited to) our: </p>
+            <p>Cisco Call Manager Express, Cisco Call Manager, Cisco Contact Center, SIP trunks, Unified Distributed Call Centres </p>
+            <p>Being able to provide your business with a dynamic, unified & reliable VoIP communications platform can make the difference between surviving and being successful.</p>
+          </div>
+          <div class="servicescontactus"><img src="images/contactus.png" width="184" height="41" /></div>
+        </div>
+        <div class="clearfloat"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cleantitle"><img src="images/client.png" width="1232" height="191" /></div>
+<div class="cleanwrapper">
+  <div class="cleanbox">
+    <div class="cleancont">
+      <div class="cleanlogo"><img src="images/cisco.png" width="136" height="86" /></div>
+      <div class="cleantext">Pellentesque vel dui sed orci faucibus iaculis. Suspendisse dictum magna id purus tincidunt rutrum. Nulla congue. Vivamus sit amet lorem posuere dui vulputate ornare. Phasellus mattis sollicitudin ligula. Duis dignissim felis et urna. </div>
+      <div class="cleanbutton"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Read More</div>
+    </div>
+  </div>
+  <div class="cleanbox">
+    <div class="cleancont">
+      <div class="cleanlogo"><img src="images/cisco.png" width="136" height="86" /></div>
+      <div class="cleantext">Pellentesque vel dui sed orci faucibus iaculis. Suspendisse dictum magna id purus tincidunt rutrum. Nulla congue. Vivamus sit amet lorem posuere dui vulputate ornare. Phasellus mattis sollicitudin ligula. Duis dignissim felis et urna. </div>
+      <div class="cleanbutton"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Read More</div>
+    </div>
+  </div>
+  <div class="clearfloat"></div>
+  <div class="cleanbox">
+    <div class="cleancont">
+      <div class="cleanlogo"><img src="images/cisco.png" width="136" height="86" /></div>
+      <div class="cleantext">Pellentesque vel dui sed orci faucibus iaculis. Suspendisse dictum magna id purus tincidunt rutrum. Nulla congue. Vivamus sit amet lorem posuere dui vulputate ornare. Phasellus mattis sollicitudin ligula. Duis dignissim felis et urna. </div>
+      <div class="cleanbutton"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Read More</div>
+    </div>
+  </div>
+  <div class="cleanbox">
+    <div class="cleancont">
+      <div class="cleanlogo"><img src="images/cisco.png" width="136" height="86" /></div>
+      <div class="cleantext">Pellentesque vel dui sed orci faucibus iaculis. Suspendisse dictum magna id purus tincidunt rutrum. Nulla congue. Vivamus sit amet lorem posuere dui vulputate ornare. Phasellus mattis sollicitudin ligula. Duis dignissim felis et urna. </div>
+      <div class="cleanbutton"><img src="images/viewbutton.png" width="10" height="14" />&nbsp;Read More</div>
+    </div>
+  </div>
+</div>
+<div class="cleanbottom"><img src="images/pagebutton.png" width="125" height="99" /></div>
+</body>
+</html>

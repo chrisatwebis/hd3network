@@ -1,0 +1,358 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/**
+*	Site logo
+**/
+#region-branding .logo-img img{
+	width: 96px;
+	height: auto;
+}
+#section-content{
+	padding-top: 106px;
+}
+#section-header .region{
+	margin: 0px 10px;
+}
+/***
+*	Main menu
+*/
+.navigation #main-menu{
+	background: none;
+	display: inline;
+	background: none;
+}
+.navigation #mobile_menu_handler{
+	display: none;
+}
+.navigation #main-menu li{
+	width: auto;
+	padding: 0px;
+	float: none;
+	margin: auto;
+	text-align: center;
+}
+.navigation #main-menu li a{
+	display: block;
+	float: left;
+	height: 71px;
+	width: auto;
+	color: #FFF;
+	padding: 0 20px;
+	line-height: 71px;
+	font-family: Eurostile, Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;	
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 0px;
+}
+.navigation #main-menu li a:hover,
+.navigation #main-menu li a.parallax-active{
+	color: #FFF;
+	background-color: #F00;	
+}
+
+/**
+*	Section styling
+**/
+#region-preface-second .block{
+	padding-right: 11%;
+	padding-left: 2.2%;
+	border-right: 1px solid #bbbbbb;
+	margin-bottom: 0px;
+}
+
+#region-preface-third .block{
+	padding-left: 6.6%;
+	padding-right: 6.6%;
+}
+
+#section-header{
+	background: url("../images/navbg.png")  repeat-x left 2px transparent;
+}
+#zone-preface{
+	padding-top: 80px;
+	background: url("../images/preface_bg_narrow.png") no-repeat 10px 0px transparent;
+	padding-bottom: 30px;
+	margin-top: 0px;
+}
+
+
+.quote_left{
+	background: url("../images/quote_left_narrow.png") no-repeat 0 10px transparent;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 0px;
+}
+.quote_right{
+	background: url("../images/quote_right_narrow.png") no-repeat 0 center transparent;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+/********Header section****************************************/
+/*
+*	#block-menu-menu-header-menu
+*/
+#block-menu-menu-header-menu .menu{
+	position: relative;
+}
+#block-menu-menu-header-menu .menu li{
+	padding: 6px 0;
+}
+#block-menu-menu-header-menu .menu li a{
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+/**
+*	Site name block
+*/
+#block-block-1{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	padding: 10px 0 9px;
+	font-size: 12px;
+	line-height: 16px;
+	display: block;
+}
+
+/**
+*		Carousel Bean Block
+***/
+#block-views-custom-bean-block .view-content #views_slideshow_cycle_main_custom_bean-block{
+	width: 80%;
+}
+#block-views-custom-bean-block .view-content .views-slideshow-controls-bottom{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	margin-top: 0px;
+}
+.bean-carousel-block .field-name-field-description{
+	min-height: 72px;
+}
+
+
+
+/**
+*	Services block
+**/
+#block-views-custom-contents-block{
+	display: block;
+}
+#block-views-custom-contents-block-2{
+	display: none;
+}
+#block-views-custom-contents-block .quicktabs-tabs{
+	display: table;
+	width: 100%;
+	margin: 0px;
+	*overflow:auto;
+}
+#block-views-custom-contents-block .quicktabs-tabs li{
+	text-align: center;
+	background-color: #F2414C;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 24px;
+	border: 1px solid white;
+	border-top: 1px solid #f2414c;
+	border-bottom: 0px;
+	
+	display: table-cell;
+	*float:left;
+	*width: 20%;
+	*height: 80px;
+	*border-left: 0px;
+	*border-right: 0px;
+
+	vertical-align: middle;
+	border-radius: 6px 6px 0 0;
+
+}
+#block-views-custom-contents-block .quicktabs-tabs li.active,
+#block-views-custom-contents-block .quicktabs-tabs li:hover{
+	background: transparent;
+	border: 1px solid #bbbbbb;
+	border-bottom: 0px;
+	*border-left: 0px;
+	*border-right: 0px;
+
+}
+#block-views-custom-contents-block .quicktabs-tabs li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	white-space: normal;
+	font-family: EurostileBold, Arial, Helvetica, Verdana, Geneva, sans-serif;
+	padding: 12px;
+	font-size: 24px;
+	line-height: 140%;
+}
+
+
+
+#quicktabs-view__custom_contents__block{
+	background: url("../images/homeline4.png") no-repeat 0px 0px transparent;
+}
+
+/**
+*	Services block
+**/
+#block-views-custom-contents-block .quicktabs-tabpage .views-field-nothing .field-content .custom_content_wrapper.left{
+	width: 33%;
+	float: left;
+	padding: 1%;
+	font-size: 27px;
+	line-height: 140%;
+	font-family: Eurostile;
+	margin-bottom: 0px;
+}
+#block-views-custom-contents-block .quicktabs-tabpage .views-field-nothing .field-content .custom_content_wrapper.right{
+	width: 63%;
+	float: left;
+	padding: 1%;
+	font-family: Garamond;
+	font-size: 16px;
+}
+
+/***
+**	Footer menu block
+**/
+#block-menu-menu-footer-menu{
+
+}
+#block-menu-menu-footer-menu .menu{
+	overflow: hidden;
+	display: block;
+	margin: 69px 0px 0 20px;
+	padding: 0px;
+}
+#block-menu-menu-footer-menu .menu li.leaf{
+	float: left;
+	list-style: none;
+}
+#block-menu-menu-footer-menu .menu li.leaf a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border-right: 2px solid black;
+	padding-right: 10px;
+	font-size: 16px;
+	font-family: EurostileBold;
+}
+
+#block-menu-menu-footer-menu .menu li.leaf a:hover,
+#block-menu-menu-footer-menu .menu li.leaf a.parallax-active{
+	color: red;
+}
+#block-menu-menu-footer-menu .menu li.last.leaf a{
+	border-right: 0px;
+}
+
+#block-block-2{
+	display: block;
+}
+
+.block-bean-image-block .field-name-field-description{
+	height: 145px;
+}
+
+.page-careers #region-content  .region-content-inner #block-system-main,
+.page-node.node-type-job-posting #region-content .node-job-posting,
+.page-node.node-type-job-posting #region-content .block-nodeblock-3{
+	float: left;
+	margin-left: 25%;
+	position: relative;
+	width: 75%;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f2424d;
+}
+
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .left{
+	width: 65%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 0px;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .right{
+	width: 30%;
+	float: left;
+	font-family: Georgia;
+}
+
+
+.page-node.node-type-webform #region-content .region-content-inner .node-webform{
+	width: 75%;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid white;
+}
+.region-content-inner .webform-client-form .webform-component-textfield,
+.region-content-inner .webform-client-form .webform-component-email,
+.region-content-inner .webform-client-form .webform-component-select{
+	float: left;
+	width: 48%;
+	margin: 0 2% 10px 0;
+	padding: 0px;
+	border: 0px;
+}
+.region-content-inner .webform-client-form .webform-component-textarea{
+	width: 98%;
+}
+
+.form-managed-file input.form-file{
+	width: 76%;
+	margin-right: 10px;
+}
+
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box{
+	border: 1px solid #666;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35%;
+}
+
+.page-node.node-type-webform #region-content .region-content-inner{
+	background: url("../images/node_webform_bg.png") no-repeat 0  0 transparent;
+	padding: 55px 5%;
+}
+
+.field-type-link-field .field-item{
+	float: left;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .job_apply{
+	margin-top: 10px;
+	float: left;
+}
+
+.form-managed-file input.form-submit{
+	width: auto;
+	margin-top: 10px;
+}
+.form-actions .form-submit{
+	width: auto;
+	margin-top: 0px;
+}
+
+.region-content-inner .webform-client-form .form-actions {
+	float: left;
+	clear: both;
+}
+
+#block-views-custom-contents-block .quicktabs-tabpage .custom_field_image{
+	margin-bottom: 25px;
+}
+#block-views-custom-bean-block .view-content #views_slideshow_cycle_main_custom_bean-block .field-type-link-field .field-item,
+.field-name-field-cta-link-n .field-item{
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+	width: auto;
+}

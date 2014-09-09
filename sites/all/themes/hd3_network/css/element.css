@@ -1,0 +1,207 @@
+/**This is for element only***/
+/*
+*	Standardlize the tag.
+**/
+@font-face {
+    font-family: 'Eurostile';
+    src: url('../fonts/eurostile-webfont.eot');
+    src: url('../fonts/eurostile-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/eurostile-webfont.woff') format('woff'),
+         url('../fonts/eurostile-webfont.ttf') format('truetype'),
+         url('../fonts/eurostile-webfont.svg#eurostileregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EurostileBold';
+    src: url('../fonts/eurostile-bold-webfont.eot');
+    src: url('../fonts/eurostile-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/eurostile-bold-webfont.woff') format('woff'),
+         url('../fonts/eurostile-bold-webfont.ttf') format('truetype'),
+         url('../fonts/eurostile-bold-webfont.svg#eurostilebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: Georgia, Helvetica, Arial, Verdana, Geneva, sans-serif;
+	background: url("../images/bg_fw.png") repeat 0 0 transparent;
+	font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: EurostileBold, Eurostile, Helvetica, Arial, Verdana, Geneva, sans-serif;
+}
+table{
+	border: 0px;
+}
+tr:hover td{
+	background: transparent;
+}
+.custom_field_body ul,
+.custom_field_body ol{
+	margin-left: 20px;
+}
+/*
+*	CTA link styling
+**/
+.cta-link,
+.field-type-link-field .field-item{
+	margin: 10px 0 0px;
+	display: block;
+	float: left;
+}
+.cta-link a,
+.field-type-link-field .field-item a{
+	padding: 8px 42px;
+	background: #F2424D;
+	box-shadow: #B62E37 1px 3px 1px 1px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 4px;
+	font-size: 18px;
+	font-family: EurostileBold, Eurostile, Helvetica, Arial, Verdana, Geneva, sans-serif;	
+	display: block;
+
+}
+.cta-link a:hover,
+.field-type-link-field .field-item a:hover{
+	background: #B62E37;
+	box-shadow: #961E27 1px 3px 1px 1px;
+}
+.cta-link.grey a{
+	background: #4f4f4f;
+	box-shadow: #000000 1px 3px 1px 1px;
+}
+.cta-link.grey a:hover{
+	background: #333333;
+	box-shadow: #000000 1px 3px 1px 1px;	
+}
+.field-name-field-cta-link-n{
+	overflow: hidden;
+	display: block;
+}
+.field-name-field-cta-link-n .field-item{
+	float: left;
+	margin-right: 20px;
+	padding: 5px;
+}
+/*.field-name-field-cta-link-n .field-item a{
+	padding: 8px 20px;
+}*/
+
+/**Submit button***/
+.form-actions{
+
+}
+.form-actions .form-submit{
+	padding: 8px 42px;
+	background: #F2424D;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 4px;
+	box-shadow: #B62E37 1px 3px 1px 1px;
+	font-size: 16px;		
+	display: block;	
+	border: 0px;
+	text-shadow: none;
+}
+.form-actions .form-submit:hover{
+	background: #B62E37;
+	box-shadow: #961E27 1px 3px 1px 1px;	
+}
+
+/**
+*	Upload button
+**/
+
+.form-managed-file input.form-file{
+	font-size: 16px;
+	background: white;
+	line-height: 20px;
+	padding: 7px;
+	margin-right: 10px;
+	width: 76%;
+	/* text-indent: -999px; */
+	/* color: white; */
+	margin-top: 5px;
+	border: 1px solid #aaa;
+	margin-left: 0;
+}
+.form-managed-file input.form-submit{
+	padding: 8px 42px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 4px;
+	font-size: 16px;
+	border: 0px;
+	text-shadow: none;
+	background: #4f4f4f;
+	box-shadow: #000000 1px 3px 1px 1px;
+}
+.form-managed-file input.form-submit:hover{
+	background: #000000;
+	box-shadow: #4f4f4f 1px 3px 1px 1px;	
+}
+
+/***
+*	link styling
+**/
+.see-more-see-less{
+	text-align: center;
+	color: black;
+	margin: 17px 5px;
+}
+.see-more-see-less a,
+a.arrow_down,
+a.arrow_up{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 20px;
+	background: url("../images/arrow_down.png") no-repeat left center transparent;
+	line-height: 20px;
+}
+.see-more-see-less.see-more a{
+	background: url("../images/arrow_down.png") no-repeat left center transparent;	
+}
+.see-more-see-less.see-less a,
+a.arrow_up{
+	background: url("../images/arrow_up.png") no-repeat left center transparent;	
+}
+
+a.arrow_right{
+	color: black;
+	text-decoration: none;
+	padding: 3px 20px;
+	background: url("../images/arrow_right.png") no-repeat left center transparent;
+	line-height: 120%;
+	font-size: 14px;
+	box-shadow: none;
+	text-transform: none;
+	margin: 5px 0;
+	font-weight: bold;
+	font-family: Eurostilebold;
+
+}
+a.arrow_right:hover{
+	color: red;
+}
+
+.quote_left{
+	background: url("../images/quote_left_narrow.png") no-repeat 0 10px transparent;
+	padding: 10px 6px;
+	margin-right: 5px;
+	margin-left: 0px;
+}
+.quote_right{
+	background: url("../images/quote_right_narrow.png") no-repeat 0 center transparent;
+	padding: 10px 6px;
+	margin-left: 5px;
+}
+/**
+*	
+**/

@@ -1,0 +1,246 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+#zone-preface{
+	padding-top: 80px;
+	background-image: url("../images/preface_bg_narrow.png");
+}
+#region-preface-first .block {
+	margin-left: 27px;
+}
+
+#region-postscript-third {
+	padding-top: 150px;
+	padding-bottom: 210px;
+}
+
+/********Header section****************************************/
+/*
+*	#block-menu-menu-header-menu
+*/
+#block-menu-menu-header-menu .menu li{
+
+}
+#block-menu-menu-header-menu .menu li a{
+	font-size: 14px;
+}
+/**
+*	Site name block
+*/
+#block-block-1{
+
+}
+
+/**
+*		Carousel Bean Block
+***/
+.bean-carousel-block .field-name-field-subheading{
+	font-size: 34px;
+}
+.bean-carousel-block .field-name-field-description{
+	font-size: 12px;
+	min-height: 72px;
+}
+.bean-carousel-block .field-name-field-cta-link{
+	margin-top: 30px;
+}
+
+#views_slideshow_controls_text_custom_bean-block{
+	background: url("../images/previous_next_bg_narrow.png") no-repeat 0 0 transparent;
+	height: 35px;
+	width: 60px;
+}
+
+#views_slideshow_controls_text_previous_custom_bean-block,
+#views_slideshow_controls_text_next_custom_bean-block{
+	width: 25px;
+	height: 13px;
+	background: url("../images/previous_narrow.png") no-repeat 0 0 transparent;
+}
+#views_slideshow_controls_text_next_custom_bean-block{
+	background: url("../images/next_narrow.png") no-repeat 0 0 transparent;
+	margin-left: 34px;
+	margin-top: 9px;
+}
+#views_slideshow_controls_text_previous_custom_bean-block:hover{
+	background: url("../images/previous_hover_narrow.png") no-repeat 0 0 transparent;	
+}
+#views_slideshow_controls_text_next_custom_bean-block:hover{
+	background: url("../images/next_hover_narrow.png") no-repeat 0 0 transparent;	
+}
+
+/*
+*	CTA link styling
+**/
+.cta-link a, .field-type-link-field .field-item a{
+	padding: 7px 25px 5px;
+	font-size: 14px;
+}
+/**
+*	Arrow right button
+***/
+a.arrow_right{
+	font-size: 12px;
+}
+/*
+*	quote left
+**/
+.quote_left{
+	background-image: url("../images/quote_left_narrow.png");
+	padding: 6px;
+	margin-left: -22px;
+}
+
+/**
+*	Quote right
+**/
+.quote_right{
+	background-image: url("../images/quote_right_narrow.png");
+}
+
+/**
+*	Upload button
+**/
+.form-managed-file input.form-file{
+	width: 60%;
+}
+
+/**
+*	Image block
+**/
+.block-bean-image-block .field-name-field-subheading{
+	font-size: 22px;
+}
+#block-views-custom-bean-block {
+	min-height: 250px;
+}
+.block-bean-image-block .field-name-field-description{
+	height: 125px;
+	font-size: 12px;
+}
+
+/**
+*	Basic Page node
+***/
+.node-page .field-name-field-subheading, .node-webform .field-name-field-subheading {
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+
+/**
+*	Services block
+**/
+#quicktabs-view__custom_contents__block{
+	background-image: url("../images/homeline4_narrow.png");
+	background-position: -3px 12px;
+}
+.block .block-title,
+#block-views-custom-contents-block .block-title{
+	font-size: 18px;
+}
+.block .view-header,
+#block-views-custom-contents-block .view-header{
+	font-size: 28px;
+}
+
+#block-views-custom-contents-block .quicktabs-tabs li a{
+	font-size: 14px;
+}
+#block-views-custom-contents-block .quicktabs-tabpage {
+	padding: 39px 36px 10px;
+}
+#block-views-custom-contents-block .quicktabs-tabpage .views-field-nothing .field-content .custom_content_wrapper.left{
+	font-size: 16px; 
+}
+#block-views-custom-contents-block .quicktabs-tabpage .views-field-nothing .field-content .custom_content_wrapper.right{
+	font-size: 13px;
+}
+
+
+/**
+*	Multi heading block
+*/
+.block-bean-multi-heading-block{
+
+}
+.block-bean-multi-heading-block .field-name-field-subheading-medium{
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+.block-bean-multi-heading-block .field-name-field-subheading{
+	font-size: 34px;
+	margin-bottom: 5px;
+}
+.block-bean-multi-heading-block .field-name-field-description{
+	font-size: 12px;
+	width: 100%;
+	line-height: 134%;
+}
+.block-bean-multi-heading-block .field-name-field-description p{
+	margin-bottom: 9px;
+}
+/**
+*	Career - job posting page
+**/
+.page-careers #region-content  .region-content-inner,
+.page-node.node-type-job-posting #region-content  .region-content-inner{
+	background: url("../images/node_career_bg_narrow.png") no-repeat 0  0 transparent;
+	padding: 21px 4% 21px;
+}
+.logged-in.page-node.node-type-job-posting #region-content .region-content-inner{
+	background: url("../images/node_career_bg_narrow.png") no-repeat 0  98px transparent;	
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .field .field-label,
+.page-node.node-type-job-posting #region-content .node-job-posting .field-name-field-the-company{
+	font-size: 24px;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .field .field-items{
+	font-size: 12px;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box{
+	width: 42%;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box .field .field-label{
+	margin-right: 8px;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box .field .field-label,
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box .field .field-items{
+	font-size: 12px;
+	line-height: 130%;
+}
+
+/**
+*	careers page
+**/
+
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row{
+	padding: 10px 15px 20px;
+	margin-bottom: 20px;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .label{
+	margin-right: 10px;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .left{
+	width: 65%;
+	margin-right: 5%
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .right{
+	width: 30%;
+	font-size: 12px;
+	line-height: 130%;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .job_position{
+	font-size: 15px;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .job_description{
+	font-size: 12px;
+}
+
+/*
+*	Webform page node
+**/
+.page-node.node-type-webform #region-content .region-content-inner{
+	background: url("../images/node_webform_bg_narrow.png") no-repeat 0  0 transparent;
+	padding: 33px 4%;
+}

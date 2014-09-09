@@ -1,0 +1,26 @@
+From b9353ad6e8b74aedc6f7b014254f6b58b95e9422 Mon Sep 17 00:00:00 2001
+From: mrded <ded@pisem.net>
+Date: Wed, 31 Oct 2012 17:27:34 +0000
+Subject: [PATCH] Setting Views to use Nivo Slider 3.x as default version does
+ nothing
+
+---
+ views_nivo_slider_style_plugin.inc |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/views_nivo_slider_style_plugin.inc b/views_nivo_slider_style_plugin.inc
+index 7d7d8e6..3641b95 100644
+--- a/views_nivo_slider_style_plugin.inc
++++ b/views_nivo_slider_style_plugin.inc
+@@ -50,7 +50,7 @@ class views_nivo_slider_style_plugin extends views_plugin_style {
+         '2.7.x' => '2.7.x',
+         '3.x' => '3.x',
+       ),
+-      '#default_value' => '2.7.x',
++      '#default_value' => $this->options['nivo_version'],
+       '#description' => t('Select the jQuery Nivo Slider plugin version to use.'),
+     );
+ 
+-- 
+1.7.10.2 (Apple Git-33)
+

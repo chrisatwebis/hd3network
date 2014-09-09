@@ -1,0 +1,241 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+#zone-preface{
+	padding-top: 135px;
+	background-image: url("../images/preface_bg.png");
+}
+
+#region-preface-first .block {
+	margin-left: 45px;
+}
+
+#region-postscript-third {
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+/********Header section****************************************/
+/*
+*	#block-menu-menu-header-menu
+*/
+#block-menu-menu-header-menu .menu li{
+
+}
+#block-menu-menu-header-menu .menu li a{
+	font-size: 16px;
+}
+/**
+*	Site name block
+*/
+#block-block-1{
+
+}
+
+
+/*
+*	.bean-carousel-block block
+*/
+.bean-carousel-block .field-name-field-subheading{
+	font-size: 56px;
+}
+.bean-carousel-block .field-name-field-description{
+	font-size: 16px;
+}
+.bean-carousel-block .field-name-field-cta-link{
+	margin-top: 60px;
+}
+#views_slideshow_controls_text_custom_bean-block{
+	background: url("../images/previous_next_bg.png") no-repeat 0 0 transparent;
+	height: 59px;
+	width: 100px;
+}
+
+#views_slideshow_controls_text_previous_custom_bean-block,
+#views_slideshow_controls_text_next_custom_bean-block{
+	width: 42px;
+	height: 23px;
+	background: url("../images/previous.png") no-repeat 0 0 transparent;
+}
+#views_slideshow_controls_text_next_custom_bean-block{
+	background: url("../images/next.png") no-repeat 0 0 transparent;
+	margin-left: 57px;
+	margin-top: 13px;
+}
+#views_slideshow_controls_text_previous_custom_bean-block:hover{
+	background: url("../images/previous_hover.png") no-repeat 0 0 transparent;	
+}
+#views_slideshow_controls_text_next_custom_bean-block:hover{
+	background: url("../images/next_hover.png") no-repeat 0 0 transparent;	
+}
+
+/*
+*	CTA link styling
+**/
+.cta-link a, .field-type-link-field .field-item a{
+	padding: 10px 42px 8px;
+	font-size: 18px;
+}
+/**
+*	Arrow right button
+***/
+a.arrow_right{
+	font-size: 14px;
+}
+/*
+*	quote left
+**/
+.quote_left{
+	background-image: url("../images/quote_left.png");
+	padding: 10px;
+	margin-left: -30px;
+}
+/**
+*	Quote right
+**/
+.quote_right{
+	background-image: url("../images/quote_right.png");
+}
+
+/**
+*	Upload button
+**/
+.form-managed-file input.form-file{
+	width: 75%;
+}
+
+
+
+/**
+*	Image block
+**/
+.block-bean-image-block .field-name-field-subheading{
+	font-size: 36px;
+}
+#block-views-custom-bean-block {
+	min-height: 400px;
+}
+.block-bean-image-block .field-name-field-description{
+	height: 145px;
+	font-size: 16px;
+}
+
+/**
+*	Basic Page node
+***/
+.node-page .field-name-field-subheading, .node-webform .field-name-field-subheading {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+/**
+*	Services block
+**/
+#quicktabs-view__custom_contents__block{
+	background-image: url("../images/homeline4.png");
+	background-position: 0 0;
+}
+.block .block-title,
+#block-views-custom-contents-block .block-title{
+	font-size: 22px;
+}
+.block .view-header,
+#block-views-custom-contents-block .view-header{
+	font-size: 36px;
+}
+
+#block-views-custom-contents-block .quicktabs-tabs li a{
+	font-size: 24px;
+}
+#block-views-custom-contents-block .quicktabs-tabpage {
+	padding: 65px 60px 10px;
+}
+#block-views-custom-contents-block .quicktabs-tabpage .views-field-nothing .field-content .custom_content_wrapper.left{
+	font-size: 27px; 
+}
+
+
+/**
+*	Multi heading block
+*/
+.block-bean-multi-heading-block{
+
+}
+.block-bean-multi-heading-block .field-name-field-subheading-medium{
+	font-size: 36px;
+}
+.block-bean-multi-heading-block .field-name-field-subheading{
+	font-size: 56px;
+}
+.block-bean-multi-heading-block .field-name-field-description{
+	font-size: 16px;
+	line-height: 150%;
+	width: 80%;
+}
+.block-bean-multi-heading-block .field-name-field-description p{
+	margin-bottom: 15px;
+}
+
+/**
+*	Career - job posting page
+**/
+.page-careers #region-content  .region-content-inner,
+.page-node.node-type-job-posting #region-content  .region-content-inner{
+	background: url("../images/node_career_bg.png") no-repeat 0  0 transparent;
+	padding: 36px 5% 36px;
+}
+.logged-in.page-node.node-type-job-posting #region-content .region-content-inner{
+	background: url("../images/node_career_bg.png") no-repeat 0  95px transparent;	
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .field .field-label,
+.page-node.node-type-job-posting #region-content .node-job-posting .field-name-field-the-company{
+	font-size: 36px;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .field .field-items{
+	font-size: 16px;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box{
+	width: 35%;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box .field .field-label{
+	margin-right: 8px;
+}
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box .field .field-label,
+.page-node.node-type-job-posting #region-content .node-job-posting .info_box .field .field-items{
+	font-size: 14px;
+	line-height: 140%;
+}
+
+/**
+*	careers page
+**/
+
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row{
+	padding: 10px 15px 20px;
+	margin-bottom: 20px;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .label{
+	margin-right: 10px;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .left{
+	width: 65%;
+	margin-right: 5%
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .right{
+	width: 30%;
+	font-size: 14px;
+	line-height: 150%;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .job_position{
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+.page-careers #region-content .view-id-custom_contents.view-display-id-page_1 .views-row .job_description{
+	font-size: 16px;
+}
+
+/*
+*	Webform page node
+**/
+.page-node.node-type-webform #region-content .region-content-inner{
+	background: url("../images/node_webform_bg.png") no-repeat 0  0 transparent;
+	padding: 55px 5%;
+}
